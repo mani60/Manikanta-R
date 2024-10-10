@@ -196,7 +196,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="https://drive.google.com/file/d/1TYU_0YrMuWrOqVliqDFdezURsO84PTgP/view"
+                    href="https://drive.google.com/file/d/1ntUHumjExNLwjQ9xHCfHO7K-Lro06kAf/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                   >

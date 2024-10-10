@@ -135,7 +135,11 @@ export default function Footer() {
         <div className="container">
           <PText>
             © 2024 - Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1TYU_0YrMuWrOqVliqDFdezURsO84PTgP/view">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1ntUHumjExNLwjQ9xHCfHO7K-Lro06kAf/view?usp=sharing"
+            >
               Manikanta Reddy
             </a>{' '}
           </PText>
