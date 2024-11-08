@@ -108,7 +108,7 @@ export default function About() {
               </div>
               <Button
                 btnText="Download CV"
-                btnLink="https://drive.google.com/file/d/1TYU_0YrMuWrOqVliqDFdezURsO84PTgP/view?usp=sharing"
+                btnLink="https://drive.google.com/file/d/1ntUHumjExNLwjQ9xHCfHO7K-Lro06kAf/view?usp=sharing"
               />
             </div>
             <div className="right">
@@ -127,7 +127,11 @@ export default function About() {
               <AboutInfoItem
                 cap="ed"
                 title="Masters"
-                items={['New Jersey Institute of Technology', 'New Jersey', 'USA']}
+                items={[
+                  'New Jersey Institute of Technology',
+                  'New Jersey',
+                  'USA',
+                ]}
               />
             </div>
             <div className="about__info__item">
@@ -189,16 +193,12 @@ export default function About() {
               />
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">
-                Awards
-              </h1>
+              <h1 className="about__info__heading">Awards</h1>
               <AboutInfoItem
                 cap="ed"
                 title="2022-2023"
-                items={[
-                  'Recieved a Certificate of Appreciation by TCS.',
-                ]}
-                certLink = "https://drive.google.com/file/d/14WaewE1dHw5Mb9y-r5pviTMprVJMQe2a/view?usp=sharing"
+                items={['Recieved a Certificate of Appreciation by TCS.']}
+                certLink="https://drive.google.com/file/d/14WaewE1dHw5Mb9y-r5pviTMprVJMQe2a/view?usp=sharing"
               />
             </div>
           </div>
