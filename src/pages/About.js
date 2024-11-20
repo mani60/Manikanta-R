@@ -201,6 +201,15 @@ export default function About() {
                 certLink="https://drive.google.com/file/d/14WaewE1dHw5Mb9y-r5pviTMprVJMQe2a/view?usp=sharing"
               />
             </div>
+            <div className="about__info__item">
+              <h1 className="about__info__heading">Certifications</h1>
+              <AboutInfoItem
+                cap="ed"
+                title="2022-2023"
+                items={['AWS Certified Cloud Practitioner.']}
+                certLink="https://www.credly.com/badges/c12bfc15-f98a-49b9-aa82-c07137f0b512/linked_in_profile"
+              />
+            </div>
           </div>
         </div>
       </AboutPageStyles>

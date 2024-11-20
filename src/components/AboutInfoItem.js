@@ -12,7 +12,7 @@ const AboutItemStyles = styled.div`
   .title {
     font-size: 2.4rem;
   }
-  .cert{
+  .cert {
     background-color: var(--gray-1);
     padding: 0.01em 0.2em;
     color: black;
@@ -52,11 +52,11 @@ const AboutItemStyles = styled.div`
     .title {
       font-size: 2rem;
     }
-    .cert{
+    .cert {
       background-color: var(--gray-1);
       padding: 0.01em 0.2em;
       color: black;
-  }
+    }
   }
 `;
 
@@ -64,7 +64,7 @@ export default function AboutInfoItem({
   title = 'Title',
   items = ['HTML', 'CSS'],
   cap = '',
-  certLink='',
+  certLink = '',
 }) {
   return (
     <AboutItemStyles>
@@ -72,8 +72,20 @@ export default function AboutInfoItem({
       <div className={cap === 'ed' ? 'itemsmob' : 'items'}>
         {items.map((item, index) => (
           <div className="item" key={index}>
-            <PText>{item}
-            {certLink!='' ? <a className="cert" href="https://drive.google.com/file/d/14WaewE1dHw5Mb9y-r5pviTMprVJMQe2a/view?usp=sharing" target="_blank" relrel="noreferrer">Click Here</a> : <></>}
+            <PText>
+              {item}
+              {certLink != '' ? (
+                <a
+                  className="cert"
+                  href={certLink}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Click Here
+                </a>
+              ) : (
+                <></>
+              )}
             </PText>
           </div>
         ))}
