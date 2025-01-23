@@ -4,6 +4,7 @@ import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
 import AboutImg from '../assets/images/about-sec-img.jpeg';
+import { ResumeLink } from '../assets/data/links';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -88,10 +89,7 @@ export default function AboutSection() {
             unique views through my design.
           </PText>
           <div className="aboutSection__buttons">
-            <Button
-              btnText="Download CV"
-              btnLink="https://drive.google.com/file/d/1ntUHumjExNLwjQ9xHCfHO7K-Lro06kAf/view?usp=sharing"
-            />
+            <Button btnText="Download CV" btnLink={ResumeLink} />
             <Button btnText="Read More" btnLink="/about" outline />
           </div>
         </div>

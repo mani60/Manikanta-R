@@ -81,7 +81,7 @@ export default function AboutInfoItem({
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Click Here
+                  Verify
                 </a>
               ) : (
                 <></>

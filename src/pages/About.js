@@ -4,6 +4,7 @@ import PText from '../components/PText';
 import Button from '../components/Button';
 import AboutImg from '../assets/images/about-page-img.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
+import { ResumeLink } from '../assets/data/links';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -80,7 +81,7 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Manikanta Reddy M</span>
+                Hi, I am <span>Manikanta R</span>
               </p>
               <h2 className="about__heading">A Full Stack Developer</h2>
               <div className="about__info">
@@ -106,10 +107,7 @@ export default function About() {
                   in both worlds.
                 </PText>
               </div>
-              <Button
-                btnText="Download CV"
-                btnLink="https://drive.google.com/file/d/1ntUHumjExNLwjQ9xHCfHO7K-Lro06kAf/view?usp=sharing"
-              />
+              <Button btnText="Download CV" btnLink={ResumeLink} />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -205,9 +203,16 @@ export default function About() {
               <h1 className="about__info__heading">Certifications</h1>
               <AboutInfoItem
                 cap="ed"
-                title="2022-2023"
+                title="2025-2028"
                 items={['AWS Certified Cloud Practitioner.']}
                 certLink="https://www.credly.com/badges/c12bfc15-f98a-49b9-aa82-c07137f0b512/linked_in_profile"
+              />
+              <br />
+              <AboutInfoItem
+                cap="ed"
+                title="2025-2028"
+                items={['AWS Certified Solutions Architect Associate.']}
+                certLink="https://www.credly.com/badges/3618dd38-33cf-4572-9c13-10ab7580c088/public_url"
               />
             </div>
           </div>

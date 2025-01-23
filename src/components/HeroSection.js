@@ -6,6 +6,7 @@ import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import PText from './PText';
+import { ResumeLink } from '../assets/data/links';
 
 const HeroStyles = styled.div`
   .hero {
@@ -195,11 +196,7 @@ export default function HeroSection() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://drive.google.com/file/d/1ntUHumjExNLwjQ9xHCfHO7K-Lro06kAf/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href={ResumeLink} target="_blank" rel="noreferrer">
                     <SiReaddotcv />
                   </a>
                 </li>

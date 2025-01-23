@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import FooterCol from './FooterCol';
 import PText from './PText';
+import { ResumeLink } from '../assets/data/links';
 
 const FooterStyle = styled.div`
   background-color: var(--deep-dark);
@@ -57,7 +58,7 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Manikanta Marri</h1>
+          <h1 className="footer__col1__title">Manikanta R</h1>
           <PText>
             I am a passionate Full Stack Developer with one year of professional
             experience and four years of hands-on expertise in building dynamic
@@ -97,8 +98,8 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+1(848) 313-5845',
-                path: 'tel:+1(848) 313-5845',
+                title: '+1(630) 447-0136',
+                path: 'tel:+1(630) 447-0136',
               },
               {
                 title: 'mm2948@njit.edu',
@@ -135,12 +136,8 @@ export default function Footer() {
         <div className="container">
           <PText>
             © 2024 - Designed By{' '}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/file/d/1ntUHumjExNLwjQ9xHCfHO7K-Lro06kAf/view?usp=sharing"
-            >
-              Manikanta Reddy
+            <a target="_blank" rel="noreferrer" href={ResumeLink}>
+              Manikanta R
             </a>{' '}
           </PText>
         </div>
