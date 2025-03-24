@@ -81,9 +81,9 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Manikanta R</span>
+                Hi, I am <span>Manikanta M</span>
               </p>
-              <h2 className="about__heading">A Full Stack Developer</h2>
+              <h2 className="about__heading">A Software Developer</h2>
               <div className="about__info">
                 <PText>
                   I am from Andhra Pradesh, India. I am currenlty pursuing
@@ -92,10 +92,10 @@ export default function About() {
                   view. I also love to create things that can be useful to
                   others.
                   <br /> <br />
-                  My love for gaming led me to full-stack development. I wanted
-                  to understand how games are built from the ground up, which
-                  made me dive into both front-end and back-end development. As
-                  I explored the tech behind interactive experiences, I realized
+                  My love for gaming led me to software development. I wanted to
+                  understand how games are built from the ground up, which made
+                  me dive into both front-end and back-end development. As I
+                  explored the tech behind interactive experiences, I realized
                   the potential to create dynamic websites and apps.
                   <br />
                   <br />I have a deep passion for tech news, always staying
@@ -151,6 +151,9 @@ export default function About() {
                 items={[
                   'ReactJs',
                   'HTML5',
+                  'Spring',
+                  'Kafka',
+                  'NodeJs',
                   'CSS',
                   'Bootstrap',
                   'Webpack',
@@ -183,11 +186,16 @@ export default function About() {
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
+              <AboutInfoItem
+                title="2023-Present"
+                cap="ed"
+                items={['Software Developer at BNYM']}
+              />
 
               <AboutInfoItem
-                title="2022-2023"
+                title="2021-2023"
                 cap="ed"
-                items={['Full Stack Developer at TCS']}
+                items={['Software Developer at TCS']}
               />
             </div>
             <div className="about__info__item">

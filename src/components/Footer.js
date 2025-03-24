@@ -60,7 +60,7 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Manikanta R</h1>
           <PText>
-            I am a passionate Full Stack Developer with one year of professional
+            I am a passionate Full Stack Developer with 3+ years of professional
             experience and four years of hands-on expertise in building dynamic
             web applications. I am currently open to new opportunities. Let’s
             connect!
@@ -98,8 +98,8 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+1(630) 447-0136',
-                path: 'tel:+1(630) 447-0136',
+                title: '+1(732) 398-6935',
+                path: 'tel:+1(732) 398-6935',
               },
               {
                 title: 'mm2948@njit.edu',
@@ -122,7 +122,7 @@ export default function Footer() {
               },
               {
                 title: 'Linkedin',
-                path: 'https://www.linkedin.com/in/manikanta-r-m/',
+                path: 'https://www.linkedin.com/in/manikanta2812/',
               },
               {
                 title: 'Facebook',

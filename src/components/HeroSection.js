@@ -164,7 +164,7 @@ export default function HeroSection() {
           <div className="hero__info">
             <PText>
               I am currently seeking opportunities as a Full Stack Developer,
-              bringing one year of professional experience and four years of
+              bringing 3+ years of professional experience and four years of
               hands-on expertise with React. I am passionate about designing and
               building innovative web experiences that engage and serve users.
             </PText>
@@ -179,7 +179,7 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/manikanta-r-m/"
+                    href="https://www.linkedin.com/in/manikanta2812/"
                     target="_blank"
                     rel="noreferrer"
                   >
